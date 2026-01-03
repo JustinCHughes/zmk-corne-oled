@@ -83,14 +83,14 @@ layers:
   - {t: ']', s: '}'}
   - '{'
   - '}'
-  - RGB EFF
+  - {t: '=', s: +}
   - RGB TOG
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: \, s: '|'}
   - '|'
-  - PgUp
-  - PgDn
-  - END
+  - +
+  - {t: '-', s: _}
+  - _
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
