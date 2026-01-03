@@ -79,10 +79,10 @@
         lower_layer {
             display-name = "SYMBOLS";
             bindings = <
-&kp GRAVE  &kp N1            &kp N2             &kp N3          &kp N4           &kp N5                                              &mmv MOVE_UP                     &kp N6         &kp N7         &kp N8        &kp N9                &kp N0                 &kp BSPC
-&kp TILDE  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR       &kp PERCENT                         &mmv MOVE_LEFT  &mkp RCLK       &mmv MOVE_RIGHT  &kp CARET      &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DELETE
-&kp LCTRL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &rgb_ug RGB_EFF  &rgb_ug RGB_TOG                    &mmv MOVE_DOWN                   &kp BACKSLASH  &kp PIPE       &kp PAGE_UP   &kp PAGE_DOWN         &kp END                &kp RIGHT_SHIFT
-                                                &trans          &trans           &trans                                                                               &kp SPACE      &trans         &trans
+&kp GRAVE  &kp N1            &kp N2             &kp N3          &kp N4           &kp N5                                          &mmv MOVE_UP                     &kp N6         &kp N7         &kp N8        &kp N9                &kp N0                 &kp BSPC
+&kp TILDE  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR       &kp PERCENT                     &mmv MOVE_LEFT  &mkp RCLK       &mmv MOVE_RIGHT  &kp CARET      &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DELETE
+&kp LCTRL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp EQUAL    &rgb_ug RGB_TOG                    &mmv MOVE_DOWN                   &kp BACKSLASH  &kp PIPE       &kp PLUS      &kp MINUS             &kp UNDERSCORE         &kp RIGHT_SHIFT
+                                                &trans          &trans           &trans                                                                           &kp SPACE      &trans         &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
