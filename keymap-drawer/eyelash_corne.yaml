@@ -44,12 +44,12 @@ layers:
   - X
   - $$mdi:apple-keyboard-shift$$
   - LGUI
-  - NUMBER
-  - {t: '$$mdi:keyboard-return$$', h: Fn}
-  - {t: '$$mdi:keyboard-space$$', h: Fn}
-  - SYMBOL
+  - SYMBOLS
+  - {t: '$$mdi:keyboard-return$$', h: CALCULATOR}
+  - {t: '$$mdi:keyboard-space$$', h: CALCULATOR}
+  - SETTINGS
   - $$mdi:apple-keyboard-option$$
-  NUMBER:
+  SYMBOLS:
   - {t: '`', s: '~'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -92,13 +92,13 @@ layers:
   - PgDn
   - END
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-command$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-option$$
-  SYMBOL:
+  - {t: '$$mdi:transfer$$', type: trans}
+  SETTINGS:
   - F1
   - F2
   - F3
@@ -141,13 +141,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
-  - LEFT WIN
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - {type: held}
-  - $$mdi:apple-keyboard-option$$
-  Fn:
+  - {t: '$$mdi:transfer$$', type: trans}
+  CALCULATOR:
   - PgDn
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -177,12 +177,12 @@ layers:
   - +
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&mkp MB5'
-  - '&mkp MB4'
-  - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:mouse-right-click-outline$$
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:volume-off$$
+  - $$mdi:pan-left$$
+  - $$mdi:pan-down$$
+  - $$mdi:pan-up$$
+  - $$mdi:pan-right$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:pan-down$$
   - {t: '0', s: )}
   - {t: '1', s: '!'}
@@ -190,12 +190,12 @@ layers:
   - {t: '3', s: '#'}
   - .
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-command$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [1, 15, 29]
   k: '&soft_off'
