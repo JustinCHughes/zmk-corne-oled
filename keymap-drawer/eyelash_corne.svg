@@ -550,9 +550,7 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:keyboard-space"/>
-<a href="#CALCULATOR">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 60%">CALCULATOR</tspan></text>
-</a></g>
+</g>
 <g transform="translate(695, 209) rotate(-12.0)" class="key keypos-46">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
@@ -575,6 +573,36 @@ rect.held, rect.combo.held {
 <path d="M465,156 l189,-53" class="combo"/>
 <rect rx="6" ry="6" x="451" y="143" width="28" height="26" class="combo"/>
 <use href="#mdi:bluetooth-off" xlink:href="#mdi:bluetooth-off" x="456" y="147" height="18" width="18.0" class="combo tap glyph mdi:bluetooth-off"/>
+</g>
+<g class="combo combopos-2">
+<path d="M259,129 l-213,29" class="combo"/>
+<path d="M259,129 l213,-29" class="combo"/>
+<rect rx="6" ry="6" x="245" y="116" width="28" height="26" class="combo"/>
+<use href="#mdi:pan-left" xlink:href="#mdi:pan-left" x="250" y="120" height="18" width="18.0" class="combo tap glyph mdi:pan-left"/>
+</g>
+<g class="combo combopos-3">
+<path d="M287,101 l-241,55" class="combo"/>
+<path d="M287,101 l241,-55" class="combo"/>
+<rect rx="6" ry="6" x="273" y="88" width="28" height="26" class="combo"/>
+<use href="#mdi:pan-up" xlink:href="#mdi:pan-up" x="278" y="92" height="18" width="18.0" class="combo tap glyph mdi:pan-up"/>
+</g>
+<g class="combo combopos-4">
+<path d="M315,129 l-268,30" class="combo"/>
+<path d="M315,129 l268,-30" class="combo"/>
+<rect rx="6" ry="6" x="301" y="116" width="28" height="26" class="combo"/>
+<use href="#mdi:pan-right" xlink:href="#mdi:pan-right" x="306" y="120" height="18" width="18.0" class="combo tap glyph mdi:pan-right"/>
+</g>
+<g class="combo combopos-5">
+<path d="M287,157 l-240,3" class="combo"/>
+<path d="M287,157 l240,-3" class="combo"/>
+<rect rx="6" ry="6" x="273" y="144" width="28" height="26" class="combo"/>
+<use href="#mdi:pan-down" xlink:href="#mdi:pan-down" x="278" y="148" height="18" width="18.0" class="combo tap glyph mdi:pan-down"/>
+</g>
+<g class="combo combopos-6">
+<path d="M287,129 l-240,29" class="combo"/>
+<path d="M287,129 l240,-29" class="combo"/>
+<rect rx="6" ry="6" x="273" y="116" width="28" height="26" class="combo"/>
+<use href="#mdi:mouse-scroll-wheel" xlink:href="#mdi:mouse-scroll-wheel" x="278" y="120" height="18" width="18.0" class="combo tap glyph mdi:mouse-scroll-wheel"/>
 </g>
 </g>
 </g>
@@ -855,6 +883,36 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="451" y="143" width="28" height="26" class="combo"/>
 <use href="#mdi:bluetooth-off" xlink:href="#mdi:bluetooth-off" x="456" y="147" height="18" width="18.0" class="combo tap glyph mdi:bluetooth-off"/>
 </g>
+<g class="combo combopos-2">
+<path d="M259,129 l-213,29" class="combo"/>
+<path d="M259,129 l213,-29" class="combo"/>
+<rect rx="6" ry="6" x="245" y="116" width="28" height="26" class="combo"/>
+<use href="#mdi:pan-left" xlink:href="#mdi:pan-left" x="250" y="120" height="18" width="18.0" class="combo tap glyph mdi:pan-left"/>
+</g>
+<g class="combo combopos-3">
+<path d="M287,101 l-241,55" class="combo"/>
+<path d="M287,101 l241,-55" class="combo"/>
+<rect rx="6" ry="6" x="273" y="88" width="28" height="26" class="combo"/>
+<use href="#mdi:pan-up" xlink:href="#mdi:pan-up" x="278" y="92" height="18" width="18.0" class="combo tap glyph mdi:pan-up"/>
+</g>
+<g class="combo combopos-4">
+<path d="M315,129 l-268,30" class="combo"/>
+<path d="M315,129 l268,-30" class="combo"/>
+<rect rx="6" ry="6" x="301" y="116" width="28" height="26" class="combo"/>
+<use href="#mdi:pan-right" xlink:href="#mdi:pan-right" x="306" y="120" height="18" width="18.0" class="combo tap glyph mdi:pan-right"/>
+</g>
+<g class="combo combopos-5">
+<path d="M287,157 l-240,3" class="combo"/>
+<path d="M287,157 l240,-3" class="combo"/>
+<rect rx="6" ry="6" x="273" y="144" width="28" height="26" class="combo"/>
+<use href="#mdi:pan-down" xlink:href="#mdi:pan-down" x="278" y="148" height="18" width="18.0" class="combo tap glyph mdi:pan-down"/>
+</g>
+<g class="combo combopos-6">
+<path d="M287,129 l-240,29" class="combo"/>
+<path d="M287,129 l240,-29" class="combo"/>
+<rect rx="6" ry="6" x="273" y="116" width="28" height="26" class="combo"/>
+<use href="#mdi:mouse-scroll-wheel" xlink:href="#mdi:mouse-scroll-wheel" x="278" y="120" height="18" width="18.0" class="combo tap glyph mdi:mouse-scroll-wheel"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 637)" class="layer-SETTINGS">
@@ -1133,6 +1191,36 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="451" y="143" width="28" height="26" class="combo"/>
 <use href="#mdi:bluetooth-off" xlink:href="#mdi:bluetooth-off" x="456" y="147" height="18" width="18.0" class="combo tap glyph mdi:bluetooth-off"/>
 </g>
+<g class="combo combopos-2">
+<path d="M259,129 l-213,29" class="combo"/>
+<path d="M259,129 l213,-29" class="combo"/>
+<rect rx="6" ry="6" x="245" y="116" width="28" height="26" class="combo"/>
+<use href="#mdi:pan-left" xlink:href="#mdi:pan-left" x="250" y="120" height="18" width="18.0" class="combo tap glyph mdi:pan-left"/>
+</g>
+<g class="combo combopos-3">
+<path d="M287,101 l-241,55" class="combo"/>
+<path d="M287,101 l241,-55" class="combo"/>
+<rect rx="6" ry="6" x="273" y="88" width="28" height="26" class="combo"/>
+<use href="#mdi:pan-up" xlink:href="#mdi:pan-up" x="278" y="92" height="18" width="18.0" class="combo tap glyph mdi:pan-up"/>
+</g>
+<g class="combo combopos-4">
+<path d="M315,129 l-268,30" class="combo"/>
+<path d="M315,129 l268,-30" class="combo"/>
+<rect rx="6" ry="6" x="301" y="116" width="28" height="26" class="combo"/>
+<use href="#mdi:pan-right" xlink:href="#mdi:pan-right" x="306" y="120" height="18" width="18.0" class="combo tap glyph mdi:pan-right"/>
+</g>
+<g class="combo combopos-5">
+<path d="M287,157 l-240,3" class="combo"/>
+<path d="M287,157 l240,-3" class="combo"/>
+<rect rx="6" ry="6" x="273" y="144" width="28" height="26" class="combo"/>
+<use href="#mdi:pan-down" xlink:href="#mdi:pan-down" x="278" y="148" height="18" width="18.0" class="combo tap glyph mdi:pan-down"/>
+</g>
+<g class="combo combopos-6">
+<path d="M287,129 l-240,29" class="combo"/>
+<path d="M287,129 l240,-29" class="combo"/>
+<rect rx="6" ry="6" x="273" y="116" width="28" height="26" class="combo"/>
+<use href="#mdi:mouse-scroll-wheel" xlink:href="#mdi:mouse-scroll-wheel" x="278" y="120" height="18" width="18.0" class="combo tap glyph mdi:mouse-scroll-wheel"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 955)" class="layer-CALCULATOR">
@@ -1378,9 +1466,10 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held"/>
 </g>
-<g transform="translate(632, 224) rotate(-24.0)" class="key held alternate keypos-45">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held alternate side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held alternate"/>
+<g transform="translate(632, 224) rotate(-24.0)" class="key trans keypos-45">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
 <g transform="translate(695, 209) rotate(-12.0)" class="key trans keypos-46">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -1403,6 +1492,36 @@ rect.held, rect.combo.held {
 <path d="M465,156 l189,-53" class="combo"/>
 <rect rx="6" ry="6" x="451" y="143" width="28" height="26" class="combo"/>
 <use href="#mdi:bluetooth-off" xlink:href="#mdi:bluetooth-off" x="456" y="147" height="18" width="18.0" class="combo tap glyph mdi:bluetooth-off"/>
+</g>
+<g class="combo combopos-2">
+<path d="M259,129 l-213,29" class="combo"/>
+<path d="M259,129 l213,-29" class="combo"/>
+<rect rx="6" ry="6" x="245" y="116" width="28" height="26" class="combo"/>
+<use href="#mdi:pan-left" xlink:href="#mdi:pan-left" x="250" y="120" height="18" width="18.0" class="combo tap glyph mdi:pan-left"/>
+</g>
+<g class="combo combopos-3">
+<path d="M287,101 l-241,55" class="combo"/>
+<path d="M287,101 l241,-55" class="combo"/>
+<rect rx="6" ry="6" x="273" y="88" width="28" height="26" class="combo"/>
+<use href="#mdi:pan-up" xlink:href="#mdi:pan-up" x="278" y="92" height="18" width="18.0" class="combo tap glyph mdi:pan-up"/>
+</g>
+<g class="combo combopos-4">
+<path d="M315,129 l-268,30" class="combo"/>
+<path d="M315,129 l268,-30" class="combo"/>
+<rect rx="6" ry="6" x="301" y="116" width="28" height="26" class="combo"/>
+<use href="#mdi:pan-right" xlink:href="#mdi:pan-right" x="306" y="120" height="18" width="18.0" class="combo tap glyph mdi:pan-right"/>
+</g>
+<g class="combo combopos-5">
+<path d="M287,157 l-240,3" class="combo"/>
+<path d="M287,157 l240,-3" class="combo"/>
+<rect rx="6" ry="6" x="273" y="144" width="28" height="26" class="combo"/>
+<use href="#mdi:pan-down" xlink:href="#mdi:pan-down" x="278" y="148" height="18" width="18.0" class="combo tap glyph mdi:pan-down"/>
+</g>
+<g class="combo combopos-6">
+<path d="M287,129 l-240,29" class="combo"/>
+<path d="M287,129 l240,-29" class="combo"/>
+<rect rx="6" ry="6" x="273" y="116" width="28" height="26" class="combo"/>
+<use href="#mdi:mouse-scroll-wheel" xlink:href="#mdi:mouse-scroll-wheel" x="278" y="120" height="18" width="18.0" class="combo tap glyph mdi:mouse-scroll-wheel"/>
 </g>
 </g>
 </g>
