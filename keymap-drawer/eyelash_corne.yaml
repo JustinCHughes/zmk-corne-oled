@@ -137,8 +137,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB TOG
   - RGB EFF
-  - $$mdi:volume-off$$
-  - Ctl+$$mdi:volume-low$$
+  - '&mute_tap'
+  - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
