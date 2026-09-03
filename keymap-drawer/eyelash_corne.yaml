@@ -140,7 +140,7 @@ layers:
   - '&mute_tap'
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
-  - Sft+Ins
+  - Ins
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
